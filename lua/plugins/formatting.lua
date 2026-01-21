@@ -2,8 +2,8 @@ return {
   "stevearc/conform.nvim",
   opts = {
     formatters_by_ft = {
-      css = { "stylelint" },
-      scss = { "stylelint" },
+      css = { "prettier" },
+      scss = { "prettier" },
       html = { "prettier" },
       -- Add other file types as needed
     },
